@@ -47,14 +47,21 @@ Receive Messages: Messages from other users will appear instantly in the chat wi
 
 Online Status: (Optional) See a list of online users in the chat room.
 
-Example
+## Example
 When you open the app:
 
 Users will be prompted to enter a username and join a chat room.
+
 Once in the room, they can type and send messages, which will be visible to all users in the room.
+
 Messages appear in a chat window, and the app updates in real-time without refreshing the page.
-Dependencies
+
+## Dependencies
+
 React: Frontend framework for building the UI.
+
 Socket.io: (Optional) For WebSocket-based real-time communication (if using a Node.js backend).
+
 Firebase: (Optional) For real-time messaging and user authentication.
+
 CSS or Styled Components: For styling the app.
